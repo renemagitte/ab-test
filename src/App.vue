@@ -229,6 +229,9 @@ h2 {
 			color: #2478d1;
 			&--select {
 				margin-left: 2px;
+				@media screen and (max-width: 768px) {
+					margin-top: 2px;
+				}
 			}
 		}
 		&-icon-wrapper{
