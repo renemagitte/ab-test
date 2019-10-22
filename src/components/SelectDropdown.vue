@@ -37,7 +37,9 @@
 	border: none;
 	background-color: transparent;
 	margin-top: -2px;
-	margin-left: -5px;
+	// margin-left: -5px;
+	// margin-left: 5px;
+	-webkit-appearance:none;
 }
 .select-dropdown::-ms-expand {
 	display: none;

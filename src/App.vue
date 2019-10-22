@@ -2,8 +2,10 @@
 <div class="container">
 
 	<div class="top">
-		<div class="logo">
-		</div>
+		<a href="/">
+			<div class="logo">
+			</div>
+		</a>
 
 		<div class="title">
 			<h2>AktivBo Projekt</h2>
@@ -21,6 +23,7 @@
 				<i class="fas fa-filter option-icon"></i>
 			</div>
 			Sortera på antal respondenter
+			<i class="fas fa-sort"></i>
 		</div>
 
 		<div class="option">
@@ -29,6 +32,10 @@
 			</div>
 			<select-dropdown @emitFunction="filterOnProjectType">
 			</select-dropdown>
+			<i class="fas fa-sort option-icon--select"></i>
+		</div>
+
+		<div class="option-space">
 		</div>
 
 		<div class="option option--right" @click="refreshFilters">
@@ -220,6 +227,9 @@ h2 {
 
 		&-icon {
 			color: #2478d1;
+			&--select {
+				margin-left: 2px;
+			}
 		}
 		&-icon-wrapper{
 			text-align: center;
@@ -228,10 +238,12 @@ h2 {
 		}
 		&--right {
 			text-align: right;
-			flex-grow: 1;
 			@media screen and (max-width: 768px) {
 				text-align: left;
 			}
+		}
+		&-space {
+			flex-grow: 1;
 		}
 	}
 }
