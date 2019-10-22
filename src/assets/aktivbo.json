@@ -1,0 +1,86 @@
+{
+  "data": {
+    "listSurveys": [
+      {
+        "project_id": 504,
+        "project_name": "Commercial properties (Demo)",
+        "date_start": "2018-09-27",
+        "date_end": "2018-10-18",
+        "survey_type_id": 102,
+        "survey_type": "CSC Lokal",
+        "project_type_id": 0,
+        "project_type": "Standard project",
+        "project_status_id": 900,
+        "project_status": "Finished",
+        "integration": "NO",
+        "respondent_count": 428,
+        "answer_rate_latest": 30.61,
+        "favorite_id": null
+      },
+      {
+        "project_id": 503,
+        "project_name": "Residents (Demo)",
+        "date_start": "2018-08-31",
+        "date_end": "2018-11-07",
+        "survey_type_id": 101,
+        "survey_type": "CSC Bostad",
+        "project_type_id": 0,
+        "project_type": "Standard project",
+        "project_status_id": 900,
+        "project_status": "Finished",
+        "integration": "NO",
+        "respondent_count": 3922,
+        "answer_rate_latest": 56.3,
+        "favorite_id": null
+      },
+      {
+        "project_id": 510,
+        "project_name": "Moving in (Demo)",
+        "date_start": "2018-08-21",
+        "date_end": "2019-08-21",
+        "survey_type_id": 113,
+        "survey_type": "Inflytt",
+        "project_type_id": 2,
+        "project_type": "Continuous project",
+        "project_status_id": 100,
+        "project_status": "Ongoing",
+        "integration": "YES",
+        "respondent_count": 332,
+        "answer_rate_latest": 47.59,
+        "favorite_id": null
+      },
+      {
+        "project_id": 511,
+        "project_name": "Moving out (Demo)",
+        "date_start": "2018-08-21",
+        "date_end": "2019-08-21",
+        "survey_type_id": 115,
+        "survey_type": "Utflytt",
+        "project_type_id": 2,
+        "project_type": "Continuous project",
+        "project_status_id": 100,
+        "project_status": "Ongoing",
+        "integration": "YES",
+        "respondent_count": 285,
+        "answer_rate_latest": 31.23,
+        "favorite_id": null
+      },
+      {
+        "project_id": 520,
+        "project_name": "Error report (Demo)",
+        "date_start": "2018-08-21",
+        "date_end": "2019-08-21",
+        "survey_type_id": 1002,
+        "survey_type": "Felanmälan",
+        "project_type_id": 2,
+        "project_type": "Continuous project",
+        "project_status_id": 100,
+        "project_status": "Ongoing",
+        "integration": "YES",
+        "respondent_count": 3492,
+        "answer_rate_latest": 20.68,
+        "favorite_id": null
+      }
+    ]
+  }
+}
